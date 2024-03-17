@@ -13,11 +13,23 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink {
+                    FormAndSectionView()
+                } label: {
+                    Text("FormAndSectionView")
+                }
+                NavigationLink {
+                    ButtonWithStateView()
+                } label: {
+                    Text("ButtonWithStateView")
+                }
+                NavigationLink {
                     TextFieldView()
                 } label: {
-                    Text("TextView")
+                    Text("TextFieldView")
                 }
             }
+            .navigationTitle("SwiftUI Playground")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
