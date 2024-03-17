@@ -27,6 +27,11 @@ struct ContentView: View {
                 } label: {
                     Text("TextFieldView")
                 }
+                NavigationLink {
+                    PickerView()
+                } label: {
+                    Text("PickerView")
+                }
             }
             .navigationTitle("SwiftUI Playground")
             .navigationBarTitleDisplayMode(.inline)
