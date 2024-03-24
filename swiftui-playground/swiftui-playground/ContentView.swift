@@ -11,26 +11,56 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            List {
-                NavigationLink {
-                    FormAndSectionView()
-                } label: {
-                    Text("FormAndSectionView")
+            Form {
+                Section("WeSplit") {
+                    NavigationLink {
+                        FormAndSectionView()
+                    } label: {
+                        Text("FormAndSectionView")
+                    }
+                    NavigationLink {
+                        ButtonWithStateView()
+                    } label: {
+                        Text("ButtonWithStateView")
+                    }
+                    NavigationLink {
+                        TextFieldView()
+                    } label: {
+                        Text("TextFieldView")
+                    }
+                    NavigationLink {
+                        PickerView()
+                    } label: {
+                        Text("PickerView")
+                    }
                 }
-                NavigationLink {
-                    ButtonWithStateView()
-                } label: {
-                    Text("ButtonWithStateView")
-                }
-                NavigationLink {
-                    TextFieldView()
-                } label: {
-                    Text("TextFieldView")
-                }
-                NavigationLink {
-                    PickerView()
-                } label: {
-                    Text("PickerView")
+                
+                Section("Guess The Flag") {
+                    NavigationLink {
+                        StacksView()
+                    } label: {
+                        Text("StacksView")
+                    }
+                    NavigationLink {
+                        ColorsAndFramesView()
+                    } label: {
+                        Text("ColorsAndFramesView")
+                    }
+                    NavigationLink {
+                        GradientsView()
+                    } label: {
+                        Text("GradientsView")
+                    }
+                    NavigationLink {
+                        ButtonsAndImagesView()
+                    } label: {
+                        Text("ButtonsAndImagesView")
+                    }
+                    NavigationLink {
+                        ShowAlertView()
+                    } label: {
+                        Text("ShowAlertView")
+                    }
                 }
             }
             .navigationTitle("SwiftUI Playground")

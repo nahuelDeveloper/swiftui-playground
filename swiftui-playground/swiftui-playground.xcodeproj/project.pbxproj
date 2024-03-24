@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70296F4E2BAB9F0B00BC00A0 /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70296F4D2BAB9F0B00BC00A0 /* StacksView.swift */; };
+		70296F502BABA03A00BC00A0 /* ColorsAndFramesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70296F4F2BABA03A00BC00A0 /* ColorsAndFramesView.swift */; };
+		70296F522BABA27700BC00A0 /* GradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70296F512BABA27700BC00A0 /* GradientsView.swift */; };
+		70296F542BABA42600BC00A0 /* ButtonsAndImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70296F532BABA42600BC00A0 /* ButtonsAndImagesView.swift */; };
+		70296F562BABA6AE00BC00A0 /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70296F552BABA6AE00BC00A0 /* ShowAlertView.swift */; };
 		705F7C302BA678CB00411936 /* FormAndSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F7C2F2BA678CB00411936 /* FormAndSectionView.swift */; };
 		705F7C322BA67A3900411936 /* ButtonWithStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F7C312BA67A3900411936 /* ButtonWithStateView.swift */; };
 		705F7C342BA67ED800411936 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F7C332BA67ED800411936 /* PickerView.swift */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70296F4D2BAB9F0B00BC00A0 /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
+		70296F4F2BABA03A00BC00A0 /* ColorsAndFramesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAndFramesView.swift; sourceTree = "<group>"; };
+		70296F512BABA27700BC00A0 /* GradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsView.swift; sourceTree = "<group>"; };
+		70296F532BABA42600BC00A0 /* ButtonsAndImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImagesView.swift; sourceTree = "<group>"; };
+		70296F552BABA6AE00BC00A0 /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
 		705F7C2F2BA678CB00411936 /* FormAndSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAndSectionView.swift; sourceTree = "<group>"; };
 		705F7C312BA67A3900411936 /* ButtonWithStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithStateView.swift; sourceTree = "<group>"; };
 		705F7C332BA67ED800411936 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
@@ -40,6 +50,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70296F4C2BAB9D0800BC00A0 /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				705F7C2F2BA678CB00411936 /* FormAndSectionView.swift */,
+				705F7C312BA67A3900411936 /* ButtonWithStateView.swift */,
+				70B60C9A2BA11964006712C4 /* TextFieldView.swift */,
+				705F7C332BA67ED800411936 /* PickerView.swift */,
+			);
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
+		70296F572BB0EF8800BC00A0 /* Guess the Flag */ = {
+			isa = PBXGroup;
+			children = (
+				70296F4D2BAB9F0B00BC00A0 /* StacksView.swift */,
+				70296F4F2BABA03A00BC00A0 /* ColorsAndFramesView.swift */,
+				70296F512BABA27700BC00A0 /* GradientsView.swift */,
+				70296F532BABA42600BC00A0 /* ButtonsAndImagesView.swift */,
+				70296F552BABA6AE00BC00A0 /* ShowAlertView.swift */,
+			);
+			path = "Guess the Flag";
+			sourceTree = "<group>";
+		};
 		707D108C2AE0730F00639A31 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +94,8 @@
 			children = (
 				707D10982AE0730F00639A31 /* swiftui_playgroundApp.swift */,
 				707D109A2AE0730F00639A31 /* ContentView.swift */,
-				705F7C2F2BA678CB00411936 /* FormAndSectionView.swift */,
-				705F7C312BA67A3900411936 /* ButtonWithStateView.swift */,
-				70B60C9A2BA11964006712C4 /* TextFieldView.swift */,
-				705F7C332BA67ED800411936 /* PickerView.swift */,
+				70296F4C2BAB9D0800BC00A0 /* WeSplit */,
+				70296F572BB0EF8800BC00A0 /* Guess the Flag */,
 				707D109C2AE0731100639A31 /* Assets.xcassets */,
 				707D109E2AE0731100639A31 /* Preview Content */,
 			);
@@ -150,10 +181,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				707D109B2AE0730F00639A31 /* ContentView.swift in Sources */,
+				70296F522BABA27700BC00A0 /* GradientsView.swift in Sources */,
 				707D10992AE0730F00639A31 /* swiftui_playgroundApp.swift in Sources */,
+				70296F562BABA6AE00BC00A0 /* ShowAlertView.swift in Sources */,
+				70296F502BABA03A00BC00A0 /* ColorsAndFramesView.swift in Sources */,
 				705F7C342BA67ED800411936 /* PickerView.swift in Sources */,
+				70296F4E2BAB9F0B00BC00A0 /* StacksView.swift in Sources */,
 				705F7C302BA678CB00411936 /* FormAndSectionView.swift in Sources */,
 				70B60C9B2BA11964006712C4 /* TextFieldView.swift in Sources */,
+				70296F542BABA42600BC00A0 /* ButtonsAndImagesView.swift in Sources */,
 				705F7C322BA67A3900411936 /* ButtonWithStateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
